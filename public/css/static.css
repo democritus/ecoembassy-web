@@ -1,0 +1,334 @@
+/*
+Tastelessly
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 20px 0;
+	
+}
+
+body, th, td, input, textarea {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+form {
+}
+
+fieldset {
+}
+
+h1, h2, h3 {
+	margin-top: 1.5em;
+	color: #333333;;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #333333;;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+ul, ol {
+	margin-top: 1.5em;
+	line-height: 1.8em;
+	font-size: 1.1em;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	border: none;
+}
+
+h1 a, h2 a, h3 a {
+	border: none;
+	text-decoration: none;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+	background: none;
+}
+
+
+/* Wrapper */
+
+#wrapper {
+}
+
+/* Header */
+
+#header {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#menu {
+	float: left;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 25px;
+	margin-right: 1px;
+	padding: 10px 20px 0 20px;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #CCCCCC;
+}
+
+#menu a:hover {
+	background:  #F3F3F3;
+	color: #333333;
+}
+
+#menu .current_page_item a {
+	background:  #F3F3F3;
+	color: #2C2E22;
+}
+/* Logo */
+
+#logo {
+	width: 978px;
+	height: 200px;
+	margin: 0 auto;
+	height: 263px;
+	border: 20px solid #F3F3F3;
+}
+
+#sys_banner {
+	width: 978px;
+	height: 200px;
+	margin: 0 auto;
+	height: 263px;
+}
+
+#logo h1, #logo h2 {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	padding: 100px 5px 0 20px;
+	color: #FFFFFF;
+}
+
+#logo h2 {
+	padding: 115px 0 0 0;
+	font-style: italic;
+}
+
+#logo p {
+	clear: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#logo a {
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 978px;
+	margin: 0 auto;
+	padding: 20px 0px 0 0px;
+	background: #FFFFFF;
+	border: 20px solid #F3F3F3;
+	border-top: none;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 938px;
+	padding: 0px 0px 0px 20px;
+}
+
+
+/* Footer */
+
+.sys_footer {
+	text-align: center;
+	font-size: 9px;
+	color: #CCCCCC;
+}
+
+.sys_footer a {
+	color: #FFFFFF;
+}
+			
+.sys_txt{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	padding			: 1px 0 0 0;
+	font-size-adjust: none;
+	font-style		: normal;
+	font-variant	: normal;
+
+}
+
+a{color:#3C7BCF;}
+
+.sys_txt a img{
+
+	border : none;
+
+}
+
+.sys_txt a{
+
+	text-decoration: none;
+
+}
+
+.sys_txt a:hover{
+
+	text-decoration: none;
+
+}
+
+.sys_txt h1, .sys_txt h2, .sys_txt h3 {
+	margin-top: 1.5em;
+}
+
+.sys_txt h1 a, .sys_txt h2 a, .sys_txt h3 a {
+	border: none;
+	text-decoration: none;
+}
+
+.sys_txt h1 a:hover, .sys_txt h2 a:hover, .sys_txt h3 a:hover {
+	background: none;
+}
+
+.sys_txt h1 {
+	letter-spacing: -.075em;
+	font-size: 3em;
+}
+
+.sys_txt h2 {
+	letter-spacing: -.05em;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #333333;
+}
+
+.sys_txt h3 {
+	font-size: 1em;
+}
+
+.sys_txt h4{
+	margin:0;
+	padding:10px 0 10px 0;
+	
+	
+}
+
+.sys_txt h5{
+	
+	margin:0;
+	padding:10px 0 10px 0;
+	
+}
+
+.sys_txt h6{
+	margin:0;
+	padding:10px 0 10px 0;
+	
+	
+}
+
+.sys_txt p{
+	
+	margin:0;
+	padding:5px 0;
+	
+}
+
+.sys_txt blockquote {
+	
+	margin: 0 20px;
+	padding:15px 0 15px 30px;
+	padding-left: 1em;
+	border-left: 5px solid #DDDDDD;
+	
+}	
+			
+.sys_txt ul{
+	
+	margin	: 15px 5px;
+	padding	: 0 35px;
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size:small;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	
+
+}
+
+.sys_txt ul li{
+
+	margin : 0;
+	padding : 2px 0;
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size:small;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+}
+
+
+
